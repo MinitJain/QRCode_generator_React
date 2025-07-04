@@ -66,3 +66,49 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.qr-container {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.qr-code-box {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
